@@ -1,0 +1,76 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1200;
+}
+
+.modal {
+    margin: 120px;
+    max-height: 80vh;
+    overflow-y: scroll;
+
+    background: linear-gradient(90deg, rgba(255, 88, 232, 1) 0%, rgba(15, 165, 255, 1) 47%, rgba(110, 255, 153, 1) 100%);
+    background-size: 400% 400%;
+    border-radius: 20px;
+
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 25%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 50% 25%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+
+    padding: 3px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.svg {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.button:hover .svg {
+    transform: scale(1.3);
+    filter: drop-shadow(3px 5px 2px rgba(3, 255, 238, 0.699));
+
+    animation: transform 15s ease infinite;
+}
+
+@keyframes transform {
+    100% {
+        transform: scale(1.3);
+    }
+}
