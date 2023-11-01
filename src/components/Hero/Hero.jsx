@@ -1,4 +1,4 @@
-import CVPdf from "./Koretska_Anastasiia_FullStackDeveloper.pdf";
+// import CVPdf from "./Koretska_Anastasiia_FullStackDeveloper.pdf";
 import styles from "./hero.module.css";
 
 const Hero = () => {
@@ -16,9 +16,9 @@ const Hero = () => {
           <div className={styles.text}>
             <p>with passion for learning and creating.</p>
           </div>
-          <a href={CVPdf} download={CVPdf} className={styles.cvLink}>
+          {/* <a href={CVPdf} download={CVPdf} className={styles.cvLink}>
             Download CV
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

@@ -27,6 +27,16 @@ const Navbar = () => {
               </li>
               <li className={styles.item}>
                 <NavLink
+                  to="/stack"
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
+                >
+                  Stack
+                </NavLink>
+              </li>
+              <li className={styles.item}>
+                <NavLink
                   to="/projects"
                   className={({ isActive }) =>
                     isActive ? activeLink : normalLink

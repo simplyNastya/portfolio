@@ -8,6 +8,43 @@
     text-align: center;
 }
 
+.title {
+    margin-bottom: 50px;
+    
+    font-weight: 700;
+    font-size: 60px;
+
+    background: linear-gradient(90deg, rgba(255, 88, 232, 1) 10%, rgba(15, 165, 255, 1) 47%, rgba(110, 255, 153, 1) 80%);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 25%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 50% 25%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .list {
     list-style: none;
     max-width: 570px;
@@ -19,7 +56,7 @@
     margin-bottom: 35px;
 }
 
-.title {
+.itemTitle {
     margin-bottom: 20px;
 
 	font-weight: 700;
