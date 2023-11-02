@@ -8,13 +8,20 @@ const Footer = () => {
         <div className={styles.wrapper}>
           <ul className={styles.list}>
             <li className={styles.item}>
-              <a href="https://github.com/simplyNastya" className={styles.link}>
+              <a
+                href="https://github.com/simplyNastya"
+                rel="noopener noreferrer"
+                target="_blank"
+                className={styles.link}
+              >
                 <ImGithub className={styles.svg} />
               </a>
             </li>
             <li className={styles.item}>
               <a
                 href="https://www.linkedin.com/in/anastasiia-koretska-558bba233/"
+                rel="noopener noreferrer"
+                target="_blank"
                 className={styles.link}
               >
                 <ImLinkedin className={styles.svg} />
