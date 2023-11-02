@@ -101,6 +101,7 @@
 .skillTitle {
     text-align: start;
     font-size: 22px;
+    max-width: 248px;
 }
 
 .skillProgressBarContainer {
@@ -161,7 +162,7 @@
 }
 
 .skillProgressBar.node {
-    --width: 150px;
+    --width: 190px;
 }
 
 .skillProgressBar.express {
@@ -194,4 +195,20 @@
 
 .skillProgressBar.figma {
     --width: 280px;
+}
+
+.skillProgressBar.postman {
+    --width: 290px;
+}
+
+.skillProgressBar.git {
+    --width: 260px;
+}
+
+.skillProgressBar.axios {
+    --width: 290px;
+}
+
+.skillProgressBar.swagger {
+    --width: 250px;
 }

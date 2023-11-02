@@ -50,7 +50,17 @@ const Stack = () => {
                 </div>
               </li>
               <li className={styles.skillItem}>
-                <p className={styles.skillTitle}>CSS/SASS</p>
+                <p className={styles.skillTitle}>CSS</p>
+                <div className={styles.skillProgressBarContainer}>
+                  <div
+                    className={`${styles.skillProgressBar} ${styles.css}`}
+                  ></div>
+                </div>
+              </li>
+              <li className={styles.skillItem}>
+                <p className={styles.skillTitle}>
+                  SASS/styled-component/css-modules
+                </p>
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.css}`}
@@ -108,10 +118,42 @@ const Stack = () => {
             <h2 className={styles.itemTitle}>Additional Tools</h2>
             <ul className={styles.skillList}>
               <li className={styles.skillItem}>
+                <p className={styles.skillTitle}>Git</p>
+                <div className={styles.skillProgressBarContainer}>
+                  <div
+                    className={`${styles.skillProgressBar} ${styles.git}`}
+                  ></div>
+                </div>
+              </li>
+              <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>Figma</p>
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.figma}`}
+                  ></div>
+                </div>
+              </li>
+              <li className={styles.skillItem}>
+                <p className={styles.skillTitle}>Postman</p>
+                <div className={styles.skillProgressBarContainer}>
+                  <div
+                    className={`${styles.skillProgressBar} ${styles.postman}`}
+                  ></div>
+                </div>
+              </li>
+              <li className={styles.skillItem}>
+                <p className={styles.skillTitle}>Swagger</p>
+                <div className={styles.skillProgressBarContainer}>
+                  <div
+                    className={`${styles.skillProgressBar} ${styles.swagger}`}
+                  ></div>
+                </div>
+              </li>
+              <li className={styles.skillItem}>
+                <p className={styles.skillTitle}>Axios</p>
+                <div className={styles.skillProgressBarContainer}>
+                  <div
+                    className={`${styles.skillProgressBar} ${styles.axios}`}
                   ></div>
                 </div>
               </li>
