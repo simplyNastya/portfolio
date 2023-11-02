@@ -47,20 +47,26 @@
 
 .list {
     list-style: none;
-    max-width: 570px;
-    margin-left: auto;
-    margin-right: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 570px;
 }
 
 .item:not(:last-child) {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 .itemTitle {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 	font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
 	line-height: 1.3;
 }
 
@@ -68,4 +74,124 @@
     font-weight: 500;
     font-size: 20px;
 	line-height: 1.3;
+}
+
+/* Skills styles */
+.skillList {
+    list-style: none;
+}
+
+.skillItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillItem:hover,
+.skillItem:focus {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform ease .5s;
+}
+
+.skillItem:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.skillTitle {
+    text-align: start;
+    font-size: 22px;
+}
+
+.skillProgressBarContainer {
+    width: 300px;
+    height: 10px;
+    outline: 1px solid white;
+    border-radius: 5px;
+}
+
+.skillProgressBar {
+    width: var(--width);
+    height: 10px;
+    background: linear-gradient(90deg, rgba(255, 88, 232, 1) 10%, rgba(15, 165, 255, 1) 47%, rgba(110, 255, 153, 1) 80%);
+    /* background-size: 100% 100%; */
+
+    border-radius: 5px;
+
+    /* animation: gradient 3s infinite; */
+    animation: progress 5s ease-in;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: var(--width);
+    } 
+}
+
+.skillProgressBar.js {
+    --width: 270px;
+}
+
+.skillProgressBar.restAPI {
+    --width: 290px;
+}
+
+.skillProgressBar.react {
+    --width: 290px;
+}
+
+.skillProgressBar.redux {
+    --width: 270px;
+}
+
+.skillProgressBar.semantic {
+    --width: 300px;
+}
+
+.skillProgressBar.css {
+    --width: 290px;
+}
+
+.skillProgressBar.responsive {
+    --width: 290px;
+}
+
+.skillProgressBar.node {
+    --width: 150px;
+}
+
+.skillProgressBar.express {
+    --width: 270px;
+}
+
+.skillProgressBar.mongoDB {
+    --width: 250px;
+}
+
+.skillProgressBar.mongoose {
+    --width: 250px;
+}
+
+.skillProgressBar.unit {
+    --width: 50px;
+}
+
+.skillProgressBar.docker {
+    --width: 50px;
+}
+
+.skillProgressBar.webSockets {
+    --width: 150px;
+}
+
+.skillProgressBar.socket {
+    --width: 150px;
+}
+
+.skillProgressBar.figma {
+    --width: 280px;
 }

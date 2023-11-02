@@ -32,7 +32,7 @@ const Navbar = () => {
                     isActive ? activeLink : normalLink
                   }
                 >
-                  Stack
+                  Skills
                 </NavLink>
               </li>
               <li className={styles.item}>
