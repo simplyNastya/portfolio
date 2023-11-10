@@ -34,7 +34,7 @@ const Stack = () => {
                 </div>
               </li>
               <li className={styles.skillItem}>
-                <p className={styles.skillTitle}>Redux, Redux Toolkit</p>
+                <p className={styles.skillTitle}>Redux, ReduxToolkit</p>
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.redux}`}
@@ -58,9 +58,7 @@ const Stack = () => {
                 </div>
               </li>
               <li className={styles.skillItem}>
-                <p className={styles.skillTitle}>
-                  SASS/styled-component/css-modules
-                </p>
+                <p className={styles.skillTitle}>SASS/styled-component</p>
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.css}`}
@@ -68,7 +66,9 @@ const Stack = () => {
                 </div>
               </li>
               <li className={styles.skillItem}>
-                <p className={styles.skillTitle}>Adaptive/Respon Markup</p>
+                <p className={styles.skillTitle}>
+                  Adaptive, Responsible Markup
+                </p>
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.responsive}`}

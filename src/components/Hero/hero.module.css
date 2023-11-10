@@ -6,10 +6,7 @@
 	justify-content: center;
 	align-items: center;
 
-	/* background-color: #; */
-    background-color: #171718;
-    /* background: radial-gradient(circle, rgba(48,86,255,1) 0%, rgba(255,35,120,1) 62%, rgba(95,15,255,1) 100%), url('./header-bg.png'); */
-	background-image: url('./header-bg.png');
+    background-color: #171718;background-image: url('./header-bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
 

@@ -55,7 +55,11 @@
 }
 
 .item {
-    width: 570px;
+    width: 350px;
+
+    @media screen and (min-width: 768px) {
+        min-width: 570px;
+    }
 }
 
 .item:not(:last-child) {
@@ -100,26 +104,33 @@
 
 .skillTitle {
     text-align: start;
-    font-size: 22px;
-    max-width: 248px;
+    font-size: 16px;
+    max-width: 50px;
+    
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
+        max-width: 248px;
+    }
 }
 
 .skillProgressBarContainer {
-    width: 300px;
+    width: 220px;
     height: 10px;
     outline: 1px solid white;
     border-radius: 5px;
+
+    @media screen and (min-width: 768px) {
+        width: 300px;
+    }
 }
 
 .skillProgressBar {
     width: var(--width);
     height: 10px;
     background: linear-gradient(90deg, rgba(255, 88, 232, 1) 10%, rgba(15, 165, 255, 1) 47%, rgba(110, 255, 153, 1) 80%);
-    /* background-size: 100% 100%; */
 
     border-radius: 5px;
 
-    /* animation: gradient 3s infinite; */
     animation: progress 5s ease-in;
 }
 
@@ -134,81 +145,161 @@
 }
 
 .skillProgressBar.js {
-    --width: 270px;
+    --width: 198px;
+
+    @media screen and (min-width: 768px) {
+        --width: 270px;
+    }
 }
 
 .skillProgressBar.restAPI {
-    --width: 290px;
+    --width: 212px;
+
+    @media screen and (min-width: 768px) {
+        --width: 290px;
+    }
 }
 
 .skillProgressBar.react {
-    --width: 290px;
+    --width: 212px;
+
+    @media screen and (min-width: 768px) {
+        --width: 290px;
+    }
 }
 
 .skillProgressBar.redux {
-    --width: 270px;
+    --width: 198px;
+
+    @media screen and (min-width: 768px) {
+        --width: 270px;
+    }
 }
 
 .skillProgressBar.semantic {
-    --width: 300px;
+    --width: 220px;
+
+    @media screen and (min-width: 768px) {
+        --width: 300px;
+    }
 }
 
 .skillProgressBar.css {
-    --width: 290px;
+    --width: 212px;
+
+    @media screen and (min-width: 768px) {
+        --width: 290px;
+    }
 }
 
 .skillProgressBar.responsive {
-    --width: 290px;
+    --width: 212px;
+
+    @media screen and (min-width: 768px) {
+        --width: 290px;
+    }
 }
 
 .skillProgressBar.node {
-    --width: 190px;
+    --width: 139px;
+
+    @media screen and (min-width: 768px) {
+        --width: 190px;
+    }
 }
 
 .skillProgressBar.express {
-    --width: 270px;
+    --width: 198px;
+
+    @media screen and (min-width: 768px) {
+        --width: 270px;
+    }
 }
 
 .skillProgressBar.mongoDB {
-    --width: 250px;
+    --width: 183px;
+
+    @media screen and (min-width: 768px) {
+        --width: 250px;
+    }
 }
 
 .skillProgressBar.mongoose {
-    --width: 250px;
+    --width: 183px;
+
+    @media screen and (min-width: 768px) {
+        --width: 250px;
+    }
 }
 
 .skillProgressBar.unit {
-    --width: 50px;
+    --width: 36px;
+
+    @media screen and (min-width: 768px) {
+        --width: 50px;
+    }
 }
 
 .skillProgressBar.docker {
-    --width: 50px;
+    --width: 36px;
+
+    @media screen and (min-width: 768px) {
+        --width: 50px;
+    }
 }
 
 .skillProgressBar.webSockets {
-    --width: 150px;
+    --width: 110px;
+
+    @media screen and (min-width: 768px) {
+        --width: 150px;
+    }
 }
 
 .skillProgressBar.socket {
-    --width: 150px;
+    --width: 110px;
+
+    @media screen and (min-width: 768px) {
+        --width: 150px;
+    }
 }
 
 .skillProgressBar.figma {
-    --width: 280px;
+    --width: 205px;
+
+    @media screen and (min-width: 768px) {
+        --width: 280px;
+    }
 }
 
 .skillProgressBar.postman {
-    --width: 290px;
+    --width: 212px;
+
+    @media screen and (min-width: 768px) {
+        --width: 290px;
+    }
 }
 
 .skillProgressBar.git {
-    --width: 260px;
+    --width: 190px;
+
+    @media screen and (min-width: 768px) {
+        --width: 260px;
+    }
 }
 
 .skillProgressBar.axios {
-    --width: 290px;
+    --width: 212px;
+
+    @media screen and (min-width: 768px) {
+        --width: 290px;
+    }
 }
 
 .skillProgressBar.swagger {
-    --width: 250px;
+    --width: 183px;
+
+    @media screen and (min-width: 768px) {
+        --width: 250px;
+    }
 }

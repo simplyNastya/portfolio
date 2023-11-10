@@ -50,18 +50,6 @@ const ProjectDetailsPage = () => {
           <h1 className={styles.title}>{project.title}</h1>
           <div className={styles.animationWrapper}>
             <SwiperGallery />
-            {/* <a
-              href={project.gitHubPagesLink}
-              target="_blank"
-              rel="noreferrer"
-              className={styles.link}
-            >
-              <img
-                src={project.img}
-                alt={project.title}
-                className={styles.img}
-              />
-            </a> */}
 
             <ul className={styles.subpagesList}>
               <li className={styles.subpagesItem}>

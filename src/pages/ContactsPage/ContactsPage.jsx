@@ -9,14 +9,15 @@ const ContactsPage = () => {
           <div className={styles.wrapper}>
             <ul className={styles.list}>
               <li className={styles.item}>
-                <h2 className={styles.subtitle}>Location</h2>
-                <p className={styles.text}>Czech Republic, Praha</p>
-              </li>
-              <li className={styles.item}>
-                <h2 className={styles.subtitle}>
-                  Telegram / WhatsApp / Viber{" "}
-                </h2>
-                <p className={styles.text}>+380990416080</p>
+                <h2 className={styles.subtitle}>Email</h2>
+                <p className={styles.text}>
+                  <a
+                    href="mailto:koretska.anastasiia@gmail.com"
+                    className={styles.link}
+                  >
+                    koretska.anastasiia.dev@gmail.com
+                  </a>
+                </p>
               </li>
               <li className={styles.item}>
                 <h2 className={styles.subtitle}>Phone</h2>
@@ -27,15 +28,14 @@ const ContactsPage = () => {
                 </p>
               </li>
               <li className={styles.item}>
-                <h2 className={styles.subtitle}>Email</h2>
-                <p className={styles.text}>
-                  <a
-                    href="mailto:koretska.anastasiia@gmail.com"
-                    className={styles.link}
-                  >
-                    koretska.anastasiia@gmail.com
-                  </a>
-                </p>
+                <h2 className={styles.subtitle}>
+                  Telegram / WhatsApp / Viber{" "}
+                </h2>
+                <p className={styles.text}>+380990416080</p>
+              </li>
+              <li className={styles.item}>
+                <h2 className={styles.subtitle}>Location</h2>
+                <p className={styles.text}>Czech Republic, Praha</p>
               </li>
             </ul>
           </div>
