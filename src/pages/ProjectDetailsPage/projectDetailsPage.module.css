@@ -3,6 +3,10 @@
     padding-bottom: 70px;
 
     background-color: #252526;
+
+    @media screen and (max-width: 767px) {
+        position: relative;
+    }
 }
 
 .goBackBtn {
@@ -13,6 +17,11 @@
     border: 0;
     cursor: pointer;
     z-index: 1;
+
+    @media screen and (max-width: 767px) {
+        top: 20px;
+        left: 20px;
+    }
 }
 
 .goBackBtn:hover,
@@ -99,6 +108,7 @@
 }
 
 .title {
+    margin-top: 40px;
     margin-bottom: 40px;
 
     font-style: 32px;
@@ -108,7 +118,9 @@
     text-align: center;
 
     @media screen and (min-width: 768px) {
+        margin-top: 0;
         font-size: 60px;
+
     }
 }
 
