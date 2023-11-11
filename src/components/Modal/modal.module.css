@@ -12,36 +12,21 @@
 }
 
 .modal {
-    margin: 120px;
+    margin: 42px;
     max-height: 80vh;
     overflow-y: scroll;
 
     background: linear-gradient(90deg, rgba(255, 88, 232, 1) 0%, rgba(15, 165, 255, 1) 47%, rgba(110, 255, 153, 1) 100%);
+    /* background-color: #252526; */
     background-size: 400% 400%;
     border-radius: 20px;
 
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
+    @media screen and (min-width: 768px) {
+        margin: 77px;
     }
 
-    25% {
-        background-position: 50% 25%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    75% {
-        background-position: 50% 25%;
-    }
-
-    100% {
-        background-position: 0% 50%;
+    @media screen and (min-width: 1200px) {
+        margin: 120px;
     }
 }
 
