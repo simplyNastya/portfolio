@@ -41,7 +41,7 @@
 
     @media screen and (min-width: 1200px) {
         display: block;
-        margin-left: 260px;
+        margin-left: 260px !important;
     }
 }
 
