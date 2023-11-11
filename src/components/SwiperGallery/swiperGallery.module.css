@@ -31,31 +31,31 @@
     animation: gradient 15s ease infinite;
 }
 
-/* :global(.swiper-button-prev) {
+:global(.swiper-button-prev) {
     display: none;
 
-    @media screen and (min-width: 768px) {
+    /* @media screen and (min-width: 768px) {
         display: block;
         margin-left: 0;
     }
 
     @media screen and (min-width: 1200px) {
         margin-left: 260px;
-    }
+    } */
 }
 
 :global(.swiper-button-next) {
     display: none;
 
-    @media screen and (min-width: 768px) {
+    /* @media screen and (min-width: 768px) {
         display: block;
         margin-right: 0;
     } 
 
     @media screen and (min-width: 1200px) {
         margin-right: 260px;
-    }
-} */
+    } */
+}
 
 :global(.swiper-pagination) {
     position: relative;
