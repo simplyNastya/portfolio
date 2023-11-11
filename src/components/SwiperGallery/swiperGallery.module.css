@@ -35,10 +35,12 @@
     display: none;
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: block;
         margin-left: 0;
     }
 
     @media screen and (min-width: 1200px) {
+        display: block;
         margin-left: 260px;
     }
 }
@@ -47,11 +49,13 @@
     display: none;
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: block;
         margin-left: 0;
     }
 
     @media screen and (min-width: 1200px) {
-        margin-left: 260px;
+        display: block;
+        margin-right: 260px;
     }
 }
 
