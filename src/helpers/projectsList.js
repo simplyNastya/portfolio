@@ -72,6 +72,14 @@ import notesManager5 from './images/notesManager/notesManager5.jpg'
 import notesManager6 from './images/notesManager/notesManager6.jpg'
 import notesManager7 from './images/notesManager/notesManager7.jpg'
 
+import barberShop1 from './images/barberShop/barberShop1.jpg'
+import barberShop2 from './images/barberShop/barberShop2.jpg'
+import barberShop3 from './images/barberShop/barberShop3.jpg'
+import barberShop4 from './images/barberShop/barberShop4.jpg'
+import barberShop5 from './images/barberShop/barberShop5.jpg'
+import barberShop6 from './images/barberShop/barberShop6.jpg'
+import barberShop7 from './images/barberShop/barberShop7.jpg'
+
 const projects = [
 	{
         id: '1',
@@ -438,6 +446,36 @@ const projects = [
 	},
 	{
         id: '11',
+		title: 'BarberShop',
+		img: [barberShop1, barberShop2, barberShop3, barberShop4, barberShop5, barberShop6, barberShop7],
+		about: {
+			greeting: `Welcome to BarberShop - we specialize in creating looks that reflect your personality and individuality.`,
+			subtitle: `BarberShop is more than just a haircut — it's an experience. Whether you're looking for a classic cut, a modern style, or a fresh shave, our talented barbers are here to bring your vision to life!`,
+			features: [
+				{ id: 1, name: `Landing page`, text: `BarberShop is a landing page where you can find the mailn information about company, services which it provides and prices, teams and contact information.`, },
+				{ id: 2, name: `Responsive and Stylish Design`, text: `With a responsive design, the website offers a seamless browsing experience on various devices, including desktops, tablets, and smartphones. The website boasts modren and elegant styles that highlight the atmosphere of the barber studio.`, },
+				{ id: 3, name: `User-Friendly Interface`, text: `The website boasts a user-friendly interface, making it easy for visitors to find relevant information and explore services of BarberShop with ease.`, },
+				{ id: 4, name: `User-Friendly Navigation`, text: `The site navigation is intuitive and user-friendly, allowing visitors to effortlessly explore different sections of the website and access the information they seek without any hassle.`, },
+				{ id: 5, name: `Smooth Anchor Scrolling`, text: `The website provides smooth anchor scrolling, making it easy for users to navigate through various sections by clicking on the menu items or internal links.`, },
+				{ id: 6, name: `Online Register Form`, text: `To streamline the process of registration to the haircut, I have integrated a online registration form. When users tap on the "Send" button, a form will pop up, allowing them to reach out to us directly.`, },
+			]
+		},
+        skills: 'JS, HTML, SASS',
+		responsibilities: {
+			title: `Role: Frontend Developer`, 
+			subtitle: `As the sole creator of BarberShop, I took on various responsibilities to develop and present a captivating website for a barber studio.`,
+			frontend: [
+				{ id: 1, name: `Markup and Styling`, text: `I meticulously marked up and styled the entire website, focusing on creating an eye-catching and professional design. The visual elements were crafted to align with the branding and identity of BarberShop, creating a consistent and visually appealing experience for visitors.`},
+				{ id: 2, name: `Main Page Design`, text: `I designed the landing page, showcasing an enticing introduction to services of BarberShop, its atmosphere and spirit, and the core offerings. The layout and content were strategically placed to capture the attention of potential clients.`},
+				{ id: 3, name: `Responsive Design`, text: `	I ensured that the website is fully responsive, adapting seamlessly to various screen sizes and devices. This ensures that visitors have a positive browsing experience, whether they access the website on a desktop, tablet, or smartphone.`},
+				{ id: 4, name: `Online Register Form`, text: `Visitors have access to the link "Online Register" from the diffenet parts of page. This link will transfer our user to a Register Form, where user will leave contact information and the worker of BarberShop will contact him in future to meke appointment`},
+			],
+		},	 
+		gitHubPagesLink: 'https://simplynastya.github.io/barber-shop-landing/',
+        gitHubFrontendLink: 'https://github.com/simplyNastya/barber-shop-landing',
+	},
+	{
+        id: '12',
 		title: 'WebStudio',
 		img: [webStudio1, webStudio2, webStudio3, webStudio4, webStudio5, webStudio6, webStudio7],
 		about: {
@@ -466,7 +504,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/goit-markup-hw-08',
 	},
 	{
-        id: '12',
+        id: '13',
 		title: 'Lasles VPN',
 		img: [laslesVpn1, laslesVpn2, laslesVpn3, laslesVpn4, laslesVpn5],
 		about: {
