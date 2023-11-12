@@ -66,6 +66,14 @@ const Stack = () => {
                 </div>
               </li>
               <li className={styles.skillItem}>
+                <p className={styles.skillTitle}>Chakra.ui</p>
+                <div className={styles.skillProgressBarContainer}>
+                  <div
+                    className={`${styles.skillProgressBar} ${styles.chakra}`}
+                  ></div>
+                </div>
+              </li>
+              <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>
                   Adaptive, Responsible Markup
                 </p>

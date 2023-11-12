@@ -192,6 +192,14 @@
     }
 }
 
+.skillProgressBar.chakra {
+    --width: 110px;
+
+    @media screen and (min-width: 768px) {
+        --width: 150px;
+    }
+}
+
 .skillProgressBar.responsive {
     --width: 212px;
 
