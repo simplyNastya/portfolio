@@ -134,6 +134,14 @@ const Stack = () => {
                 </div>
               </li>
               <li className={styles.skillItem}>
+                <p className={styles.skillTitle}>WebPack, Vite, Parcel</p>
+                <div className={styles.skillProgressBarContainer}>
+                  <div
+                    className={`${styles.skillProgressBar} ${styles.bundlers}`}
+                  ></div>
+                </div>
+              </li>
+              <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>Figma</p>
                 <div className={styles.skillProgressBarContainer}>
                   <div
