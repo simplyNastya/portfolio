@@ -98,17 +98,19 @@ const ProjectDetailsPage = () => {
                   Live Page
                 </a>
               </li>
-              <li className={styles.linksItem}>
-                <a
-                  href={project.gitHubFrontendLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={styles.gitHubLink}
-                >
-                  <ImGithub className={styles.svg} />
-                  GitHub repo <br /> front
-                </a>
-              </li>
+              {project.gitHubFrontendLink && (
+                <li className={styles.linksItem}>
+                  <a
+                    href={project.gitHubFrontendLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={styles.gitHubLink}
+                  >
+                    <ImGithub className={styles.svg} />
+                    GitHub repo <br /> front
+                  </a>
+                </li>
+              )}
               {project.gitHubBackendLink && (
                 <li className={styles.linksItem}>
                   <a

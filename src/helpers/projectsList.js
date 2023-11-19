@@ -80,9 +80,43 @@ import barberShop5 from './images/barberShop/barberShop5.jpg'
 import barberShop6 from './images/barberShop/barberShop6.jpg'
 import barberShop7 from './images/barberShop/barberShop7.jpg'
 
+import chatApp1 from './images/chatApp/chatApp1.jpg'
+import chatApp2 from './images/chatApp/chatApp2.jpg'
+import chatApp3 from './images/chatApp/chatApp3.jpg'
+import chatApp4 from './images/chatApp/chatApp4.jpg'
+import chatApp5 from './images/chatApp/chatApp5.jpg'
+
 const projects = [
 	{
         id: '1',
+		title: 'Chat App',
+		img: [chatApp1, chatApp2, chatApp3, chatApp4, chatApp5],
+		about: {
+			greeting: 'Welcome to Chat App!',
+			subtitle: `Use Chat App to have a conversation with your friends!`,
+			features: [
+				{ id: 1, name: `Real-time chatting with people in the room`, text: `Unlimited number of users can connect to a the one room and heva conversation there` },
+				{ id: 2, name: `Responsive and Stylish Design`, text: `ChatApp has responsive user interface. The application is visually appealing and user-friendly across various devices.`, },
+			],
+		},
+		skills: 'Node.js, Express.js, Socket.io, HTML5, JavaScript, CSS3',
+		responsibilities: {
+			title: `Role: Backend and Frontend Developer`, 
+			subtitle: `It was independent project just for training Socket.io.`,
+			backend: [
+				{ id: 1, name: `Simple server`, text: `I created simple Node.js server using Express.js and connected Socket.io.`},
+				{ id: 2, name: `Functions and Logic`, text: `Within the backend, I crafted and integrated functions and logical operations necessary for the proper functioning of the application. This included processes related to typing, sending and receiving messages.` },
+			],
+			frontend: [
+				{ id: 1, name: `Markuped and Stylish`, text: `Simple user friendly interface focusing on creating an intuitive and visually appealing modern and responsive design. The application is visually appealing and user-friendly across various devices.` },
+				{ id: 2, name: `Functions and Logic`, text: `Within the frontend, I crafted and integrated functions and logical operations necessary for the proper functioning of the application. This included processes related to typing, sending and receiving messages.` },
+			],
+		},
+        gitHubPagesLink: 'https://chat-app-3k4m.onrender.com',
+		gitHubBackendLink: 'https://github.com/simplyNastya/chat-app',
+	},
+	{
+        id: '2',
 		title: 'Your Pet',
 		img: [yourPet1, yourPet2, yourPet3, yourPet4, yourPet5, yourPet6, yourPet7],
 		about: {
@@ -155,7 +189,7 @@ const projects = [
 		gitHubBackendLink: 'https://github.com/DaddyStannis/your-pet-backend',
 	},
 	{
-        id: '2',
+        id: '3',
 		title: 'Wallet',
 		img: [wallet1, wallet2, wallet3, wallet4, wallet5],
 		about: {
@@ -189,7 +223,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/iamblashch/react_project',
 	},
 	{
-        id: '3',
+        id: '4',
 		title: 'NotesManager',
 		img: [notesManager1, notesManager2, notesManager3, notesManager4, notesManager5, notesManager6, notesManager7],
 		about: {
@@ -199,7 +233,7 @@ const projects = [
 				{ id: 1, name: `Login to an app`, text: `Employee can sign in to the app just if they are already in the database. Created account in the NotesManager for simple employee can just Admin or Manager.` },
 				{ id: 2, name: `Role-based access control`, text: `The interfaces and access controls & permissions are different and depends which role you are (Admin, Manager or Employee).` },
 				{ id: 3, name: `Real-time Notes List`, text: `Employee could see assigned notes in real-time, because fetch refreshed every few minutes. ` },
-				{ id: 6, name: `Responsive and Stylish Design`, text: `NotesMAnager boasts a modern and responsive user interface. The application is visually appealing and user-friendly across various devices.`, },
+				{ id: 4, name: `Responsive and Stylish Design`, text: `NotesMAnager boasts a modern and responsive user interface. The application is visually appealing and user-friendly across various devices.`, },
 			]
 		},
 		skills: 'MongoDB, Express.js, REACT, Node.js, JS, CSS, Postman, Mongoose, REST API',
@@ -227,7 +261,7 @@ const projects = [
         gitHubBackendLink: 'https://github.com/simplyNastya/notesManager-backend',
 	},
 	{
-        id: '4',
+        id: '5',
 		title: 'NewsHub',
 		img: [siteNews1, siteNews2, siteNews3, siteNews4],
 		about: {
@@ -258,7 +292,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/news-practice',
 	},
 	{
-        id: '5',
+        id: '6',
 		title: 'ContactsKeeper',
 		img: [contactKeeper1, contactKeeper2, contactKeeper3, contactKeeper4],
 		about: {
@@ -294,7 +328,7 @@ const projects = [
 		gitHubBackendLink: 'https://github.com/simplyNastya/phonebook-backend',
 	},
 	{
-        id: '6',
+        id: '7',
 		title: 'Filmoteka',
 		img: [filmoteka1, filmoteka2, filmoteka3, filmoteka4, filmoteka5, filmoteka6],
 		about: {
@@ -326,7 +360,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/goit-react-hw-05-movies',
 	},
 	{
-        id: '7',
+        id: '8',
 		title: 'OrginizeFlow',
 		img: [orginizeFlow1, orginizeFlow2, orginizeFlow3],
 		about: {
@@ -351,7 +385,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/orginizeFlow',
 	},
 	{
-        id: '8',
+        id: '9',
 		title: 'Images Finder (react)',
 		img: [imageFinderReact1],
 		about: {
@@ -380,7 +414,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/goit-react-hw-04-images',
 	},
 	{
-        id: '9',
+        id: '10',
 		title: 'Nice View',
 		img: [niceView1, niceView2, niceView3, niceView4, niceView5, niceView6, niceView7, niceView8, niceView9],
 		about: {
@@ -413,7 +447,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/Ihor-Samburenko/master-code',
 	},
 	{
-        id: '10',
+        id: '11',
 		title: 'Images Finder (js)',
 		img: [imageFinderJs1, imageFinderJs2, imageFinderJs3, imageFinderJs4],
 		about: {
@@ -445,7 +479,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/goit-js-hw-11',
 	},
 	{
-        id: '11',
+        id: '12',
 		title: 'BarberShop',
 		img: [barberShop1, barberShop2, barberShop3, barberShop4, barberShop5, barberShop6, barberShop7],
 		about: {
@@ -475,7 +509,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/barber-shop-landing',
 	},
 	{
-        id: '12',
+        id: '13',
 		title: 'WebStudio',
 		img: [webStudio1, webStudio2, webStudio3, webStudio4, webStudio5, webStudio6, webStudio7],
 		about: {
@@ -504,7 +538,7 @@ const projects = [
         gitHubFrontendLink: 'https://github.com/simplyNastya/goit-markup-hw-08',
 	},
 	{
-        id: '13',
+        id: '14',
 		title: 'Lasles VPN',
 		img: [laslesVpn1, laslesVpn2, laslesVpn3, laslesVpn4, laslesVpn5],
 		about: {
