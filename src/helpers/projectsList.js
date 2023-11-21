@@ -86,6 +86,12 @@ import chatApp3 from './images/chatApp/chatApp3.jpg'
 import chatApp4 from './images/chatApp/chatApp4.jpg'
 import chatApp5 from './images/chatApp/chatApp5.jpg'
 
+import cloudBudget1 from './images/cloudBudget/cloudbudget1.jpg'
+import cloudBudget2 from './images/cloudBudget/cloudbudget2.jpg'
+import cloudBudget3 from './images/cloudBudget/cloudbudget3.jpg'
+import cloudBudget4 from './images/cloudBudget/cloudbudget4.jpg'
+import cloudBudget5 from './images/cloudBudget/cloudbudget5.jpg'
+
 const projects = [
 	{
         id: '1',
@@ -539,6 +545,30 @@ const projects = [
 	},
 	{
         id: '14',
+		title: 'CloudBudget',
+		img: [cloudBudget1, cloudBudget2, cloudBudget3, cloudBudget4, cloudBudget5],
+		about: {
+			greeting: `Easy to Use Cloud Budget Management Software`,
+			subtitle: `CloudBudget for accessing and managing your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance.`,
+			features: [
+				{ id: 1, name: `User-Friendly Interface`, text: `The website boasts an intuitive and user-friendly interface, making it easy for user to explore the services and understand the benefits of Cloudbudget.`, },
+				{ id: 2, name: `Responsive Design`, text: `The website is designed to be fully responsive, ensuring a seamless browsing experience on various devices, including desktops, tablets, and smartphones.`, },
+			]
+		},
+		skills: 'HTML, CSS, Responsive Design',
+		responsibilities: {
+			title: `Role: Frontend Developer`, 
+			subtitle: `As the sole creator of CloudBudget, my efforts were instrumental in bringing this powerful online platform to life. My responsibilities encompassed both the markup and styling of the website, ensuring a visually appealing and engaging user experience.`,
+			frontend: [
+				{ id: 1, name: `Markup in HTML`, text: `I'm skillfully marked up the website's content using HTML, laying the foundation for its structure and organization. This structured markup ensured that the website's elements were arranged logically for a user-friendly experience.`},
+				{ id: 2, name: `Styling the Page`, text: `Created a visually captivating and professional appearance for Lasles VPN. By applying CSS styles, I transformed the content into an aesthetically pleasing and cohesive layout, the interface intuitive and easy to navigate.`},
+			],
+		},	
+        gitHubPagesLink: 'https://simplynastya.github.io/practice-2/',
+		gitHubFrontendLink: 'https://github.com/simplyNastya/practice-2',
+	},
+	{
+        id: '15',
 		title: 'Lasles VPN',
 		img: [laslesVpn1, laslesVpn2, laslesVpn3, laslesVpn4, laslesVpn5],
 		about: {
@@ -546,13 +576,13 @@ const projects = [
 			subtitle: `Lasles VPN is a cutting-edge web platform that brings you powerful online protection, breaking down geographical barriers, and delivering a supercharged VPN experience with no specific time limits. With Lasles VPN, you can confidently surf the internet knowing that your data is safe and your online activities are private.`,
 			features: [
 				{ id: 1, name: `User-Friendly Interface`, text: `The website boasts an intuitive and user-friendly interface, making it easy for user to explore the services and understand the benefits of Lasles VPN.`, },
-				{ id: 2, name: `Responsive Design`, text: `The website is designed to be fully responsive, ensuring a seamless browsing experience on various devices, including desktops, tablets, and smartphones.`, },
+				// { id: 2, name: `Responsive Design`, text: `The website is designed to be fully responsive, ensuring a seamless browsing experience on various devices, including desktops, tablets, and smartphones.`, },
 			]
 		},
 		skills: 'HTML, CSS',
 		responsibilities: {
 			title: `Role: Frontend Developer`, 
-			subtitle: `As the sole creator of , my efforts were instrumental in bringing this powerful online protection platform to life. My responsibilities encompassed both the markup and styling of the website, ensuring a visually appealing and engaging user experience.`,
+			subtitle: `As the sole creator of Lasles VPN, my efforts were instrumental in bringing this powerful online platform to life. My responsibilities encompassed both the markup and styling of the website, ensuring a visually appealing and engaging user experience.`,
 			frontend: [
 				{ id: 1, name: `Markup in HTML`, text: `I'm skillfully marked up the website's content using HTML, laying the foundation for its structure and organization. This structured markup ensured that the website's elements were arranged logically for a user-friendly experience.`},
 				{ id: 2, name: `Styling the Page`, text: `Created a visually captivating and professional appearance for Lasles VPN. By applying CSS styles, I transformed the content into an aesthetically pleasing and cohesive layout, the interface intuitive and easy to navigate.`},
