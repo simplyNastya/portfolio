@@ -115,7 +115,7 @@
 
 .skillProgressBarContainer {
     width: 220px;
-    height: 10px;
+    height: 15px;
     outline: 1px solid white;
     border-radius: 5px;
 
@@ -126,12 +126,28 @@
 
 .skillProgressBar {
     width: var(--width);
-    height: 10px;
+    height: 15px;
+
+    text-align: end;
+    font-size: 13px;
+    font-weight: 600;
+    color: #252526;
+
     background: linear-gradient(90deg, rgba(255, 88, 232, 1) 10%, rgba(15, 165, 255, 1) 47%, rgba(110, 255, 153, 1) 80%);
 
     border-radius: 5px;
 
-    animation: progress 5s ease-in;
+    animation: progress 2.5s ease-in;
+}
+
+@keyframes colorA {
+    0% {
+        color: transparent;
+    }
+
+    100% {
+        color: #252526;
+    }
 }
 
 @keyframes progress {

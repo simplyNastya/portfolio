@@ -15,7 +15,7 @@ const ContactsPage = () => {
                     href="mailto:koretska.anastasiia@gmail.com"
                     className={styles.link}
                   >
-                    koretska.anastasiia.dev@gmail.com
+                    koretska.anastasiia@gmail.com
                   </a>
                 </p>
               </li>

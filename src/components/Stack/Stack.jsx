@@ -12,9 +12,9 @@ const Stack = () => {
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>JavaScript</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.js}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.js}`}>
+                    90%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -22,23 +22,25 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.restAPI}`}
-                  ></div>
+                  >
+                    95%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>React</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.react}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.react}`}>
+                    95%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>Redux, ReduxToolkit</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.redux}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.redux}`}>
+                    90%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -46,23 +48,25 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.semantic}`}
-                  ></div>
+                  >
+                    100%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>CSS</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.css}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.css}`}>
+                    95%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>SASS/styled-component</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.css}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.css}`}>
+                    95%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -70,7 +74,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.chakra}`}
-                  ></div>
+                  >
+                    50%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -80,7 +86,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.responsive}`}
-                  ></div>
+                  >
+                    95%
+                  </div>
                 </div>
               </li>
             </ul>
@@ -91,9 +99,9 @@ const Stack = () => {
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>Node.js</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.node}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.node}`}>
+                    65%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -101,7 +109,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.express}`}
-                  ></div>
+                  >
+                    90%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -109,7 +119,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.mongoDB}`}
-                  ></div>
+                  >
+                    85%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -117,7 +129,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.mongoose}`}
-                  ></div>
+                  >
+                    85%
+                  </div>
                 </div>
               </li>
             </ul>
@@ -128,9 +142,9 @@ const Stack = () => {
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>Git</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.git}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.git}`}>
+                    85%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -138,15 +152,17 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.bundlers}`}
-                  ></div>
+                  >
+                    93%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>Figma</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.figma}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.figma}`}>
+                    93%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -154,7 +170,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.postman}`}
-                  ></div>
+                  >
+                    96%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -162,15 +180,17 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.swagger}`}
-                  ></div>
+                  >
+                    83%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>Axios</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.axios}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.axios}`}>
+                    96%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -178,7 +198,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.webSockets}`}
-                  ></div>
+                  >
+                    50%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -186,15 +208,17 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.socket}`}
-                  ></div>
+                  >
+                    50%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
                 <p className={styles.skillTitle}>unit testing</p>
                 <div className={styles.skillProgressBarContainer}>
-                  <div
-                    className={`${styles.skillProgressBar} ${styles.unit}`}
-                  ></div>
+                  <div className={`${styles.skillProgressBar} ${styles.unit}`}>
+                    16%
+                  </div>
                 </div>
               </li>
               <li className={styles.skillItem}>
@@ -202,7 +226,9 @@ const Stack = () => {
                 <div className={styles.skillProgressBarContainer}>
                   <div
                     className={`${styles.skillProgressBar} ${styles.docker}`}
-                  ></div>
+                  >
+                    16%
+                  </div>
                 </div>
               </li>
             </ul>
