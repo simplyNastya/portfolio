@@ -225,8 +225,8 @@ const projects = [
 				{ id: 8, name: `Feature Development and Planning`, text: `I participated in team discussions to plan and prioritize feature development. My input helped shape the roadmap of the project, ensuring that the frontend components were aligned with the overall project goals.`},
 			],
 		},
-        gitHubPagesLink: 'https://iamblashch.github.io/react_project',
-        gitHubFrontendLink: 'https://github.com/iamblashch/react_project',
+        gitHubPagesLink: 'https://wallet-app-zu53.onrender.com',
+        gitHubFrontendLink: 'https://https://github.com/simplyNastya/wallet-app',
 	},
 	{
         id: '4',
